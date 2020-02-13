@@ -1,33 +1,40 @@
 ---
-description: This page will describe how to set up the Sidescroller boilerplate app.
+description: This page will describe how to install all requirements to run the game.
 ---
 
-# Sidescroller-Py
+# Installing requirements
 
-{% hint style="danger" %}
-**IMPORTANT:** [**`git`**](https://git-scm.com/downloads) **and** [**Python**](https://www.python.org/downloads/) **have to be installed!**
-{% endhint %}
+### Git
 
-## Setting up
+First off is the Git CLI. Head over to [**Git-SCM**](https://git-scm.com/downloads) and download the Git CLI.
 
-First up, clone the repo.
-
-```
-$ git clone https://github.com/sparkiesoth/Sidescroller-Py
-```
-
-Once the repository has finished cloning, change to the directory and install all requirements.
-
-```bash
-$ cd Sidescroller-Py
-$ pip install -r requirements.txt
-```
-
-After `pip` has finished installing all requirements, you can run the game with:
+After installing, you can use the following to check if Git is installed:
 
 ```text
-python main.py
+$ git --version
 ```
 
+It should output something like this:
 
+```text
+git version 2.25.0.windows.1
+```
+
+### Python
+
+Next up, is [**Python**](https://www.python.org/downloads/). Head over to the website and download the installer.
+
+![Make sure to tick &quot;Add Python to Path&quot;](.gitbook/assets/windows-setup-run-the-python-installer.jpg)
+
+To check the Python version, run the following:
+
+```text
+$ python --version
+```
+
+It should output something like:
+
+```text
+Python 3.8.1
+```
 
